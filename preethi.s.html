@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>preethi</title>
+        <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+        <div id="navbar">
+        <a id="logo"> proleap</a>
+        <a id="a1"href="#">HOME</a>
+        <a id="a1"href="#">CONTACT US</a>
+        <a id="a1"href="#">MY CART</a>
+        <a id="a1"href="#">ABOUT</a>
+        <input placeholder="search"><button>CLICK ME !</button>
+        </div>
+        <br> <br>
+        <form>
+        <label> First name</label>
+        <input type="text" name="firstname" size="14/"> <br> <br>
+        
+        <label> Lastname: </label>
+        <input type="text" name="Lastname" size="14/"> <br> <br>
+
+        <label>gender:</label>
+        <input type="radio" name="male"/> male 
+        <input type="radio" name="female"/> female
+        <input type="radio" name="other"/> other
+        <br> <br>
+
+        <label> Quakification: </label>
+        <input type="radio" name="middlename" size="14"/> 1year PUC
+        <input type="radio" name="middlename" size="14"/> 2year PUC
+        <input type="radio" name="middlename" size="14"/> DIPLOMA
+        <br> <br>
+
+        <label>cource:</label>
+        <select>
+        <option value="language">Selection</option>
+        
+        </select>
+        </form>
+    </body>
+</html>
